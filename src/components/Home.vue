@@ -1,4 +1,3 @@
-<!-- eslint-disable vue/multi-word-component-names -->
 <template>
     <div>
       <h1>게시판</h1>
@@ -16,6 +15,7 @@
   
   <script>
   export default {
+    name: 'HomePage', // 여러 단어로 이름 변경
     data() {
       return {
         posts: []
